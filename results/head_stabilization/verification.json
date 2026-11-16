@@ -1,0 +1,304 @@
+{
+  "trials": [
+    {
+      "amplitude_deg": 10,
+      "frequency_hz": 0.25,
+      "metrics": {
+        "baseline": {
+          "rms_head_yaw_error_rad": 0.11895199599523801,
+          "peak_head_yaw_error_rad": 0.17454412117595242,
+          "rms_head_actuator_force_nm": 1.3040625707327302e-05,
+          "max_head_actuator_force_nm": 1.7503214225922827e-05,
+          "peak_abs_head_yaw_joint_rad": 3.182402586531423e-05,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "rms_head_yaw_error_rad": 0.026156288759116898,
+          "peak_head_yaw_error_rad": 0.03456475280815052,
+          "rms_head_actuator_force_nm": 0.013669172867236368,
+          "max_head_actuator_force_nm": 0.018994739239145863,
+          "peak_abs_head_yaw_joint_rad": 0.16448011332487744,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "rms_head_yaw_error_rad": 0.008701401266756972,
+          "peak_head_yaw_error_rad": 0.014767602994846918,
+          "rms_head_actuator_force_nm": 0.014065451836608067,
+          "max_head_actuator_force_nm": 0.025031186636977665,
+          "peak_abs_head_yaw_joint_rad": 0.17030442120343814,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "amplitude_deg": 10,
+      "frequency_hz": 0.5,
+      "metrics": {
+        "baseline": {
+          "rms_head_yaw_error_rad": 0.12338650285267855,
+          "peak_head_yaw_error_rad": 0.17455364575313181,
+          "rms_head_actuator_force_nm": 1.3040625707327323e-05,
+          "max_head_actuator_force_nm": 1.7503214225922844e-05,
+          "peak_abs_head_yaw_joint_rad": 3.182402586531426e-05,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "rms_head_yaw_error_rad": 0.04336197729231088,
+          "peak_head_yaw_error_rad": 0.06053385779618248,
+          "rms_head_actuator_force_nm": 0.02259940425616337,
+          "max_head_actuator_force_nm": 0.03307398194424058,
+          "peak_abs_head_yaw_joint_rad": 0.16360048889435058,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "rms_head_yaw_error_rad": 0.014438588492332146,
+          "peak_head_yaw_error_rad": 0.026333381429211045,
+          "rms_head_actuator_force_nm": 0.02338610156820361,
+          "max_head_actuator_force_nm": 0.04474258319258211,
+          "peak_abs_head_yaw_joint_rad": 0.17137276760152645,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "amplitude_deg": 10,
+      "frequency_hz": 1.0,
+      "metrics": {
+        "baseline": {
+          "rms_head_yaw_error_rad": 0.12341484426685213,
+          "peak_head_yaw_error_rad": 0.1745565388290511,
+          "rms_head_actuator_force_nm": 1.3040625707327314e-05,
+          "max_head_actuator_force_nm": 1.7503214225922864e-05,
+          "peak_abs_head_yaw_joint_rad": 3.18240258653143e-05,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "rms_head_yaw_error_rad": 0.0766021461396381,
+          "peak_head_yaw_error_rad": 0.11149442671911558,
+          "rms_head_actuator_force_nm": 0.039809990762575465,
+          "max_head_actuator_force_nm": 0.06103015862540631,
+          "peak_abs_head_yaw_joint_rad": 0.1590306729964836,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "rms_head_yaw_error_rad": 0.027517232081568935,
+          "peak_head_yaw_error_rad": 0.04776697649994954,
+          "rms_head_actuator_force_nm": 0.04448552248547638,
+          "max_head_actuator_force_nm": 0.08117014644955295,
+          "peak_abs_head_yaw_joint_rad": 0.17634266823768927,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "amplitude_deg": 20,
+      "frequency_hz": 0.25,
+      "metrics": {
+        "baseline": {
+          "rms_head_yaw_error_rad": 0.23790629819977455,
+          "peak_head_yaw_error_rad": 0.34907704637538517,
+          "rms_head_actuator_force_nm": 1.304062570732724e-05,
+          "max_head_actuator_force_nm": 1.750321422592266e-05,
+          "peak_abs_head_yaw_joint_rad": 3.1824025865313925e-05,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "rms_head_yaw_error_rad": 0.04485605353923322,
+          "peak_head_yaw_error_rad": 0.060322938164284245,
+          "rms_head_actuator_force_nm": 0.02342369756968521,
+          "max_head_actuator_force_nm": 0.03336710733387743,
+          "peak_abs_head_yaw_joint_rad": 0.3374211238441986,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "rms_head_yaw_error_rad": 0.014750223282310777,
+          "peak_head_yaw_error_rad": 0.026653055339977083,
+          "rms_head_actuator_force_nm": 0.023958590386497957,
+          "max_head_actuator_force_nm": 0.04530552330381398,
+          "peak_abs_head_yaw_joint_rad": 0.3435402763893328,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "amplitude_deg": 20,
+      "frequency_hz": 0.5,
+      "metrics": {
+        "baseline": {
+          "rms_head_yaw_error_rad": 0.2467724889445229,
+          "peak_head_yaw_error_rad": 0.3490842271265735,
+          "rms_head_actuator_force_nm": 1.3040625707327272e-05,
+          "max_head_actuator_force_nm": 1.7503214225922732e-05,
+          "peak_abs_head_yaw_joint_rad": 3.1824025865314053e-05,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "rms_head_yaw_error_rad": 0.0796954279917795,
+          "peak_head_yaw_error_rad": 0.11208642406176317,
+          "rms_head_actuator_force_nm": 0.04152281472479223,
+          "max_head_actuator_force_nm": 0.06129036787963616,
+          "peak_abs_head_yaw_joint_rad": 0.3358471173150585,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "rms_head_yaw_error_rad": 0.02629845922090343,
+          "peak_head_yaw_error_rad": 0.049828119462104414,
+          "rms_head_actuator_force_nm": 0.04272140482310767,
+          "max_head_actuator_force_nm": 0.08479760187371463,
+          "peak_abs_head_yaw_joint_rad": 0.34577089036877917,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "amplitude_deg": 20,
+      "frequency_hz": 1.0,
+      "metrics": {
+        "baseline": {
+          "rms_head_yaw_error_rad": 0.24682825861367624,
+          "peak_head_yaw_error_rad": 0.34908946402848384,
+          "rms_head_actuator_force_nm": 1.304062570732734e-05,
+          "max_head_actuator_force_nm": 1.7503214225922895e-05,
+          "peak_abs_head_yaw_joint_rad": 3.182402586531435e-05,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "rms_head_yaw_error_rad": 0.14806330073488308,
+          "peak_head_yaw_error_rad": 0.21459296064638878,
+          "rms_head_actuator_force_nm": 0.07693709685569072,
+          "max_head_actuator_force_nm": 0.11746879718906693,
+          "peak_abs_head_yaw_joint_rad": 0.32659146312288845,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "rms_head_yaw_error_rad": 0.052554054755467663,
+          "peak_head_yaw_error_rad": 0.09287068088434802,
+          "rms_head_actuator_force_nm": 0.08509802486324583,
+          "max_head_actuator_force_nm": 0.15794133551566097,
+          "peak_abs_head_yaw_joint_rad": 0.35550442398983373,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "amplitude_deg": 30,
+      "frequency_hz": 0.25,
+      "metrics": {
+        "baseline": {
+          "rms_head_yaw_error_rad": 0.35686060081611776,
+          "peak_head_yaw_error_rad": 0.5236099715748184,
+          "rms_head_actuator_force_nm": 1.3040625707327321e-05,
+          "max_head_actuator_force_nm": 1.7503214225922878e-05,
+          "peak_abs_head_yaw_joint_rad": 3.182402586531432e-05,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "rms_head_yaw_error_rad": 0.06349319826295251,
+          "peak_head_yaw_error_rad": 0.0860766455226134,
+          "rms_head_actuator_force_nm": 0.033159917389222464,
+          "max_head_actuator_force_nm": 0.047733111946246604,
+          "peak_abs_head_yaw_joint_rad": 0.5105142030697979,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "rms_head_yaw_error_rad": 0.02080905397795679,
+          "peak_head_yaw_error_rad": 0.03853388395141977,
+          "rms_head_actuator_force_nm": 0.033878151294925704,
+          "max_head_actuator_force_nm": 0.065572303117807,
+          "peak_abs_head_yaw_joint_rad": 0.5171665799263218,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "amplitude_deg": 30,
+      "frequency_hz": 0.5,
+      "metrics": {
+        "baseline": {
+          "rms_head_yaw_error_rad": 0.37015847544020336,
+          "peak_head_yaw_error_rad": 0.5236171523260063,
+          "rms_head_actuator_force_nm": 1.3040625707327328e-05,
+          "max_head_actuator_force_nm": 1.750321422592286e-05,
+          "peak_abs_head_yaw_joint_rad": 3.182402586531429e-05,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "rms_head_yaw_error_rad": 0.11595971504014742,
+          "peak_head_yaw_error_rad": 0.16367581881202753,
+          "rms_head_actuator_force_nm": 0.060425326036272944,
+          "max_head_actuator_force_nm": 0.08953124950924146,
+          "peak_abs_head_yaw_joint_rad": 0.5081651464588224,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "rms_head_yaw_error_rad": 0.0381739221926123,
+          "peak_head_yaw_error_rad": 0.07332601702002339,
+          "rms_head_actuator_force_nm": 0.06209551911322098,
+          "max_head_actuator_force_nm": 0.12484906508936744,
+          "peak_abs_head_yaw_joint_rad": 0.5205048151912693,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "amplitude_deg": 30,
+      "frequency_hz": 1.0,
+      "metrics": {
+        "baseline": {
+          "rms_head_yaw_error_rad": 0.37024167336184505,
+          "peak_head_yaw_error_rad": 0.5236223892279166,
+          "rms_head_actuator_force_nm": 1.3040625707327304e-05,
+          "max_head_actuator_force_nm": 1.750321422592283e-05,
+          "peak_abs_head_yaw_joint_rad": 3.1824025865314236e-05,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "rms_head_yaw_error_rad": 0.2195139494306916,
+          "peak_head_yaw_error_rad": 0.31777006940682817,
+          "rms_head_actuator_force_nm": 0.11408681333047015,
+          "max_head_actuator_force_nm": 0.1739523782650132,
+          "peak_abs_head_yaw_joint_rad": 0.4941683848553883,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "rms_head_yaw_error_rad": 0.07761380018484404,
+          "peak_head_yaw_error_rad": 0.1379603582833986,
+          "rms_head_actuator_force_nm": 0.12577619330252823,
+          "max_head_actuator_force_nm": 0.23468031850776508,
+          "peak_abs_head_yaw_joint_rad": 0.5349652870889802,
+          "head_yaw_gain": 0.9999999999998899,
+          "head_yaw_limit_exceeded": false
+        }
+      }
+    }
+  ],
+  "sampling_invariance": true,
+  "invalid_inputs_rejected": true,
+  "mujoco_version": "3.17.0"
+}

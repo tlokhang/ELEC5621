@@ -1,0 +1,393 @@
+{
+  "criteria": {
+    "acquire_tolerance_deg": 3,
+    "acquire_dwell_s": 0.2,
+    "acquire_deadline_s": 1,
+    "hold_rms_deg": 3,
+    "hold_peak_deg": 6
+  },
+  "configuration": {
+    "duration": 6.0,
+    "settle_duration": 1.0,
+    "cue_delay": 0.5,
+    "disturbance_delay": 1.5,
+    "sample_period": 0.002,
+    "gaze_gain": 2.0
+  },
+  "mujoco_version": "3.17.0",
+  "scope": "Yaw-only head/neck rig with prescribed mocap torso and perfect sensing; no balance validation",
+  "repeats": "12 paired seeded draws from the same task distribution; no sensor noise",
+  "trials": [
+    {
+      "seed": 0,
+      "target_offset_deg": 12.697867137638703,
+      "amplitude_deg": 10.409735239361947,
+      "frequency_hz": 0.2541319088821323,
+      "results": {
+        "baseline": {
+          "acquisition_s": 0.14600000000000002,
+          "hold_rms_deg": 7.282130529235262,
+          "hold_peak_deg": 10.401041647647071,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "acquisition_s": 0.14600000000000002,
+          "hold_rms_deg": 1.5139683725152384,
+          "hold_peak_deg": 2.1262033007084367,
+          "success": true,
+          "yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "acquisition_s": 0.06400000000000006,
+          "hold_rms_deg": 0.5098316378950635,
+          "hold_peak_deg": 0.9041362200602763,
+          "success": true,
+          "yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "target_offset_deg": -19.50463696325935,
+      "amplitude_deg": 11.441596127196338,
+      "frequency_hz": 0.48716236178431094,
+      "results": {
+        "baseline": {
+          "acquisition_s": 0.16600000000000004,
+          "hold_rms_deg": 8.188924334971261,
+          "hold_peak_deg": 11.52779013650163,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "acquisition_s": 0.16600000000000004,
+          "hold_rms_deg": 2.6605868688567558,
+          "hold_peak_deg": 3.8752203611527145,
+          "success": true,
+          "yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "acquisition_s": 0.16000000000000003,
+          "hold_rms_deg": 0.9000554590106158,
+          "hold_peak_deg": 1.6417367780312748,
+          "success": true,
+          "yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "target_offset_deg": 12.984911434141233,
+      "amplitude_deg": 18.142257405942804,
+      "frequency_hz": 0.2729789855337742,
+      "results": {
+        "baseline": {
+          "acquisition_s": 0.14800000000000002,
+          "hold_rms_deg": 12.37661522789154,
+          "hold_peak_deg": 18.13315334190603,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "acquisition_s": 0.14800000000000002,
+          "hold_rms_deg": 2.536806662457418,
+          "hold_peak_deg": 3.486771380644731,
+          "success": true,
+          "yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "acquisition_s": 0.06400000000000006,
+          "hold_rms_deg": 0.8407133553018912,
+          "hold_peak_deg": 1.5321354406158028,
+          "success": true,
+          "yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "target_offset_deg": 12.368105065960997,
+      "amplitude_deg": 18.01274465206397,
+      "frequency_hz": 0.39554050901609195,
+      "results": {
+        "baseline": {
+          "acquisition_s": 0.14600000000000002,
+          "hold_rms_deg": 12.450127627585685,
+          "hold_peak_deg": 18.029390565034067,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "acquisition_s": 0.14600000000000002,
+          "hold_rms_deg": 3.404324711209907,
+          "hold_peak_deg": 4.768328916323949,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "acquisition_s": 0.06400000000000006,
+          "hold_rms_deg": 1.1332109804074246,
+          "hold_peak_deg": 2.111096004373114,
+          "success": true,
+          "yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "seed": 4,
+      "target_offset_deg": 15.113275528143616,
+      "amplitude_deg": 19.762437057077044,
+      "frequency_hz": 0.2702090059739005,
+      "results": {
+        "baseline": {
+          "acquisition_s": 0.15600000000000003,
+          "hold_rms_deg": 13.518796843248975,
+          "hold_peak_deg": 19.773049800180573,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "acquisition_s": 0.15600000000000003,
+          "hold_rms_deg": 2.69573228394761,
+          "hold_peak_deg": 3.721138291308091,
+          "success": true,
+          "yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "acquisition_s": 0.14,
+          "hold_rms_deg": 0.8933693214089566,
+          "hold_peak_deg": 1.6406242683049763,
+          "success": true,
+          "yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "seed": 5,
+      "target_offset_deg": 18.079407897364938,
+      "amplitude_deg": 15.15325561042142,
+      "frequency_hz": 0.3214503450220354,
+      "results": {
+        "baseline": {
+          "acquisition_s": 0.16400000000000003,
+          "hold_rms_deg": 10.869368571920393,
+          "hold_peak_deg": 15.230772209827673,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "acquisition_s": 0.16400000000000003,
+          "hold_rms_deg": 2.426966579831833,
+          "hold_peak_deg": 3.452191322293113,
+          "success": true,
+          "yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "acquisition_s": 0.15600000000000003,
+          "hold_rms_deg": 0.7979895820037639,
+          "hold_peak_deg": 1.513528097856318,
+          "success": true,
+          "yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "seed": 6,
+      "target_offset_deg": -13.432708698133384,
+      "amplitude_deg": 13.690672397953783,
+      "frequency_hz": 0.3436241913969706,
+      "results": {
+        "baseline": {
+          "acquisition_s": 0.15000000000000002,
+          "hold_rms_deg": 9.959994283336771,
+          "hold_peak_deg": 13.720908169236845,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "acquisition_s": 0.15000000000000002,
+          "hold_rms_deg": 2.2842780682842383,
+          "hold_peak_deg": 3.3353197611777614,
+          "success": true,
+          "yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "acquisition_s": 0.06400000000000006,
+          "hold_rms_deg": 0.7623979800103007,
+          "hold_peak_deg": 1.4228917540835053,
+          "success": true,
+          "yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "seed": 7,
+      "target_offset_deg": 18.972138009695755,
+      "amplitude_deg": 17.756856902451936,
+      "frequency_hz": 0.30630179749764797,
+      "results": {
+        "baseline": {
+          "acquisition_s": 0.16600000000000004,
+          "hold_rms_deg": 12.439770914798569,
+          "hold_peak_deg": 17.837364103310236,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "acquisition_s": 0.16600000000000004,
+          "hold_rms_deg": 2.7201435042756863,
+          "hold_peak_deg": 3.7880508647360185,
+          "success": true,
+          "yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "acquisition_s": 0.15800000000000003,
+          "hold_rms_deg": 0.8931129622326057,
+          "hold_peak_deg": 1.6702551001447397,
+          "success": true,
+          "yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "seed": 8,
+      "target_offset_deg": 19.872768433379257,
+      "amplitude_deg": 13.187108384855168,
+      "frequency_hz": 0.44713723395500726,
+      "results": {
+        "baseline": {
+          "acquisition_s": 0.16800000000000004,
+          "hold_rms_deg": 9.42858696156049,
+          "hold_peak_deg": 13.284167331296297,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "acquisition_s": 0.16800000000000004,
+          "hold_rms_deg": 2.8240064047225077,
+          "hold_peak_deg": 4.064828075128628,
+          "success": true,
+          "yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "acquisition_s": 0.16200000000000003,
+          "hold_rms_deg": 0.9349337022242897,
+          "hold_peak_deg": 1.7834004739256493,
+          "success": true,
+          "yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "seed": 9,
+      "target_offset_deg": -12.868172090875554,
+      "amplitude_deg": 16.031481500515618,
+      "frequency_hz": 0.4443835207300447,
+      "results": {
+        "baseline": {
+          "acquisition_s": 0.14800000000000002,
+          "hold_rms_deg": 11.427978408224034,
+          "hold_peak_deg": 16.07784960963583,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "acquisition_s": 0.14800000000000002,
+          "hold_rms_deg": 3.35668606366763,
+          "hold_peak_deg": 4.769949545630094,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "acquisition_s": 0.06400000000000006,
+          "hold_rms_deg": 1.107687272625401,
+          "hold_peak_deg": 2.0702864860458625,
+          "success": true,
+          "yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "seed": 10,
+      "target_offset_deg": 12.076818100791469,
+      "amplitude_deg": 18.284448852745307,
+      "frequency_hz": 0.28732053077050507,
+      "results": {
+        "baseline": {
+          "acquisition_s": 0.14400000000000002,
+          "hold_rms_deg": 12.476315164504454,
+          "hold_peak_deg": 18.2903195015923,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "acquisition_s": 0.14400000000000002,
+          "hold_rms_deg": 2.6761672240489567,
+          "hold_peak_deg": 3.661360740226429,
+          "success": true,
+          "yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "acquisition_s": 0.062000000000000055,
+          "hold_rms_deg": 0.8823682883286749,
+          "hold_peak_deg": 1.6118782166802976,
+          "success": true,
+          "yaw_limit_exceeded": false
+        }
+      }
+    },
+    {
+      "seed": 11,
+      "target_offset_deg": -14.99277862440115,
+      "amplitude_deg": 16.014983576233575,
+      "frequency_hz": 0.2571722520929861,
+      "results": {
+        "baseline": {
+          "acquisition_s": 0.15600000000000003,
+          "hold_rms_deg": 11.18107530859772,
+          "hold_peak_deg": 16.048363440366405,
+          "success": false,
+          "yaw_limit_exceeded": false
+        },
+        "feedback": {
+          "acquisition_s": 0.15600000000000003,
+          "hold_rms_deg": 2.138603517986959,
+          "hold_peak_deg": 2.992933589440125,
+          "success": true,
+          "yaw_limit_exceeded": false
+        },
+        "optimized": {
+          "acquisition_s": 0.14,
+          "hold_rms_deg": 0.7120018493656977,
+          "hold_peak_deg": 1.266553408899622,
+          "success": true,
+          "yaw_limit_exceeded": false
+        }
+      }
+    }
+  ],
+  "aggregate": {
+    "baseline": {
+      "successes": 0,
+      "trials": 12,
+      "mean_hold_rms_deg": 10.966640347989596,
+      "std_hold_rms_deg": 1.9090701804922732,
+      "max_hold_peak_deg": 19.773049800180573
+    },
+    "feedback": {
+      "successes": 10,
+      "trials": 12,
+      "mean_hold_rms_deg": 2.603189188483728,
+      "std_hold_rms_deg": 0.5070956440966056,
+      "max_hold_peak_deg": 4.769949545630094
+    },
+    "optimized": {
+      "successes": 12,
+      "trials": 12,
+      "mean_hold_rms_deg": 0.8639726992345572,
+      "std_hold_rms_deg": 0.1662414486694879,
+      "max_hold_peak_deg": 2.111096004373114
+    }
+  }
+}

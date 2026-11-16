@@ -1,0 +1,48 @@
+{
+  "experiment": "world-frame camera gaze stabilization under prescribed torso yaw",
+  "model": "Pollen Robotics Microduck head/neck subassembly with a kinematic trunk",
+  "controller": "baseline, original trunk compensation, and compensation plus gaze-error feedback",
+  "scope_limit": "The trunk trajectory is prescribed; this experiment does not evaluate standing or whole-body balance.",
+  "configuration": {
+    "timestep_s": 0.002,
+    "duration_s": 4.0,
+    "settle_duration_s": 1.0,
+    "cue_delay_s": 0.5,
+    "torso_yaw_amplitude_deg": 20.0,
+    "disturbance_frequency_hz": 0.5,
+    "sample_period_s": 0.01,
+    "gaze_feedback_gain": 2.0,
+    "metric_sampling_period_s": 0.002
+  },
+  "metrics": {
+    "baseline": {
+      "rms_head_yaw_error_rad": 0.24675677589343126,
+      "peak_head_yaw_error_rad": 0.3490842271265735,
+      "rms_head_actuator_force_nm": 1.1892629697076912e-05,
+      "max_head_actuator_force_nm": 1.6158505043777636e-05,
+      "peak_abs_head_yaw_joint_rad": 2.9379100079595698e-05,
+      "head_yaw_gain": 0.9999999999998899,
+      "head_yaw_limit_exceeded": false
+    },
+    "feedback": {
+      "rms_head_yaw_error_rad": 0.07956210164047918,
+      "peak_head_yaw_error_rad": 0.11208163936294424,
+      "rms_head_actuator_force_nm": 0.040902751170273074,
+      "max_head_actuator_force_nm": 0.06129036787963616,
+      "peak_abs_head_yaw_joint_rad": 0.3358471173150585,
+      "head_yaw_gain": 0.9999999999998899,
+      "head_yaw_limit_exceeded": false
+    },
+    "optimized": {
+      "rms_head_yaw_error_rad": 0.02633363518130518,
+      "peak_head_yaw_error_rad": 0.049828119462104414,
+      "rms_head_actuator_force_nm": 0.04220677928840456,
+      "max_head_actuator_force_nm": 0.08479760187371463,
+      "peak_abs_head_yaw_joint_rad": 0.34577089036877917,
+      "head_yaw_gain": 0.9999999999998899,
+      "head_yaw_limit_exceeded": false
+    }
+  },
+  "feedback_rms_error_improvement_percent": 67.75687259147838,
+  "optimized_rms_error_improvement_percent": 89.32810048033774
+}

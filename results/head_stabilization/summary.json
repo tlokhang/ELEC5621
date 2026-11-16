@@ -1,0 +1,41 @@
+{
+  "experiment": "world-frame head yaw stabilization under torso yaw torque",
+  "model": "Pollen Robotics Microduck ground-contact MJCF",
+  "controller": "trunk-yaw feed-forward compensation through head_yaw position actuator",
+  "configuration": {
+    "timestep_s": 0.002,
+    "duration_s": 4.0,
+    "settle_duration_s": 1.0,
+    "cue_delay_s": 0.5,
+    "torque_amplitude_nm": 0.01,
+    "disturbance_frequency_hz": 0.5,
+    "sample_period_s": 0.01
+  },
+  "metrics": {
+    "baseline": {
+      "rms_head_yaw_error_rad": 0.018763653294180265,
+      "peak_head_yaw_error_rad": 0.027807822185805797,
+      "max_abs_trunk_roll_rad": 0.015399645882974999,
+      "max_abs_trunk_pitch_rad": 1.4707028275586886,
+      "rms_head_actuator_force_nm": 0.000848604094481412,
+      "max_head_actuator_force_nm": 0.002122257894305549,
+      "floor_contact_fraction": 1.0,
+      "final_trunk_height_m": 0.03749843134529829,
+      "fell": true,
+      "head_yaw_gain": 0.9999999999998899
+    },
+    "feedback": {
+      "rms_head_yaw_error_rad": 0.57354667328239,
+      "peak_head_yaw_error_rad": 1.3043849380163373,
+      "max_abs_trunk_roll_rad": 1.4913294042228509,
+      "max_abs_trunk_pitch_rad": 1.4707001473921313,
+      "rms_head_actuator_force_nm": 0.1195689953138197,
+      "max_head_actuator_force_nm": 0.46481966434434163,
+      "floor_contact_fraction": 1.0,
+      "final_trunk_height_m": 0.043379386081180145,
+      "fell": true,
+      "head_yaw_gain": 0.9999999999998899
+    }
+  },
+  "feedback_rms_error_improvement_percent": -2956.6897836482685
+}
